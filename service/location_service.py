@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from coord import Coord
+from service.coord import Coord
 
 class LocationService(ABC):
     @abstractmethod

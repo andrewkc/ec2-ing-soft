@@ -1,5 +1,5 @@
-from location_service import LocationService
-from coord import Coord
+from service.location_service import LocationService
+from service.coord import Coord
 import requests
 
 class APILocationService(LocationService):

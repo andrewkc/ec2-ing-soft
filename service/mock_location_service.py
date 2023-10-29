@@ -1,5 +1,5 @@
-from location_service import LocationService
-from coord import Coord
+from service.location_service import LocationService
+from service.coord import Coord
 
 class MockLocationService(LocationService):
     def get_lat_long(self, city, country):
